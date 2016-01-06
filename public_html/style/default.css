@@ -1,0 +1,140 @@
+body {
+    background-color: white;
+    font-family: arial, helvetica, sans-serif;
+    background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 28%, rgb(127,232,232) 77%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.24, rgb(255,255,255)), color-stop(0.62, rgb(127,232,232)));
+    background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 28%, rgb(127,232,232) 77%);
+    background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 28%, rgb(127,232,232) 77%);
+    background-image: -o-linear-gradient(bottom, rgb(255,255,255) 28%, rgb(127,232,232) 77%);
+    background-image: linear-gradient(bottom, rgb(255,255,255) 28%, rgb(127,232,232) 77%);
+}
+
+table {
+    margin: 0;
+}
+
+th {
+    background-color: #003399;
+    color: white;
+    text-align: center;
+}
+
+table.menu {
+    width: 100%;
+}
+
+table.quiz {
+    vertical-align: top;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td.q-number {
+    text-align: right;
+    vertical-align: top;
+    border-style: ridge;
+}
+
+td.question {
+    vertical-align: top;
+    border-style: ridge;
+}
+
+td.answer {
+    color: blue;
+    vertical-align: top;
+    border-style: ridge;
+}
+
+th.menuheader {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, Gotham, sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 2;
+}
+
+td.menuitem {
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, Gotham, sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 2;
+}
+
+th.skills {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+td.skills {
+    color: black;
+}
+
+a.menuitem:link {
+    color: navy;
+}
+
+a.menuitem:visited {
+    color: navy;
+}
+
+a.menuitem:hover {
+    color: blue;
+}
+
+td.menuitem-2 {
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, Gotham, sans-serif;
+    font-size: 10px;
+    line-height: 15px;
+    margin: 2;
+}
+
+a.menuitem-2:link {
+    color: navy;
+}
+
+a.menuitem-2:visited {
+    color: navy;
+}
+
+a.menuitem-2:hover {
+    color: blue;
+}
+
+td.align-top {
+    vertical-align: top;
+}
+
+td.align-right {
+    text-align: right;
+}
+
+td.menuframe {
+    vertical-align: top;
+    padding-right: 10;
+}
+
+blockquote {
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+}
+
+blockquote.slogan {
+    margin-top: 20px;
+    border-top-style: dotted;
+    border-top-width: thin;
+}
